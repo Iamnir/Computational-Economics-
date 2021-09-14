@@ -1,4 +1,20 @@
 %Program to plot simple solow's growth model (Without labor and technolgy growth) 
+%{Consider the Solow growth model (no population growth, no technological growth), where output, Y is given by
+Yt = (K_t)^α
+where K is capital stock. Let s = 0.3, α = 0.5 and δ = 0.1. Use MATLAB to do the following:
+(a) Consider a linearly spaced grid for Kt which has a range of [0,12]. Let the number of
+gridpoints, Nk, be 20.
+i. Calculate Kt+1 and Yt for every point on the grid.
+ii. Plot the phase diagram associated with Kt on a figure.
+iii. Plot a separate graph with Kt on the x-axis and total savings, total output and
+total depreciation on the y-axis. Label the graph. Label the graph
+(b) Find the steady state, Kss, Yss, Css. Use the method of convergence described below:
+[10 points]
+• Start with a guess for Kss (for example Kss = 1)
+• Calculate TKss by using the capital accumulation equation
+• Keep iterating on Kss till |TKss − Kss| < 0.00001.
+• Calculate the steady state values, Yss and Css using the derived value of Kss
+Does the answer change if you had started with a guess of Kss = 12?}%
 
 clear;
 close all;
