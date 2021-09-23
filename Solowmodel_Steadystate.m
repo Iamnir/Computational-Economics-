@@ -1,4 +1,5 @@
-% Despite this method will give you the solution, this is not recommended. 
+% Despite this method will give you the solution very quickly,  this is not recommended because there could be a case (Initial Value of Initial Capital Stock) for which it won't solve.  
+
 [alpha, s, delta] = deal(0.5, 0.3, 0.1) ;  %Parameter , Savings Rate and Depreciation rate
 % define production function
 f = @(k) k.^alpha;
