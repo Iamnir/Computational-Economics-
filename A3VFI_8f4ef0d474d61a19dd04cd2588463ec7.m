@@ -1,5 +1,4 @@
-%Daksh Walia, Macroeconomic Theory 1, Assignment 3: Value Function Iteration and Graph
-%Q4,6,7
+
 
 clc
 clear
