@@ -1,6 +1,5 @@
 
 %Assignment-3_PFI_by_Niranjan [2021, Oct] 
-% Aditi & I discussed this. 
 
 clear; 
 clc
